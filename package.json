@@ -1,0 +1,8 @@
+{
+  "name": "jsinsa2015",
+  "version": "0.1.0",
+  "description": "A style guide",
+  "devDependencies": {
+    "gulp": "^3.8.11"
+  }
+}
