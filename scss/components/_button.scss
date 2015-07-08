@@ -1,0 +1,10 @@
+button {
+  background-color: $messy_brown;
+  color: white;
+  border: none;
+  height: 4rem;
+
+  &:hover {
+    background-color: $blood_red;
+  }
+}

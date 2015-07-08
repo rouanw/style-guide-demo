@@ -1,0 +1,22 @@
+.shop-item {
+  background-color: white;
+  border: 0.2em solid $grunge_grey;
+  padding: 1em;
+  min-height: 24rem;
+  margin-bottom: 5rem;
+
+  .item-title {
+    font-size: 2em;
+    color: $messy_brown;
+  }
+
+  img {
+    float: left;
+    height: 12rem;
+    margin-right: 1rem;
+  }
+
+  button {
+    width: 100%;
+  }
+}

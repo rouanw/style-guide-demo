@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var concat = require('gulp-concat');
 var del = require('del');
+var watch = require('gulp-watch');
 
 gulp.task('clean', function () {
   return del(['css', 'dist'], function (err, paths) {
@@ -10,7 +11,7 @@ gulp.task('clean', function () {
 });
 
 gulp.task('sass', function () {
-    return gulp.src('./scss/*.scss')
+    return gulp.src('./scss/app.scss')
         .pipe(sass())
         .pipe(gulp.dest('./css'));
 });
@@ -19,6 +20,10 @@ gulp.task('concat', ['sass'], function () {
   return gulp.src('./css/*.css')
     .pipe(concat('app.css'))
     .pipe(gulp.dest('./dist'));
+});
+
+gulp.task('watch', function() {
+  gulp.watch('scss/**/*.scss', ['concat']);
 });
 
 gulp.task('default', ['clean', 'concat']);

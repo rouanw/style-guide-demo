@@ -1,0 +1,18 @@
+header {
+  background-color: $blood_red;
+  color: white;
+  font-size: 4rem;
+  clear: both;
+  min-height: 16rem;
+  padding: 1rem 4rem;
+  p {
+    margin-top: 2rem;
+    margin-left: 12rem;
+  }
+  img {
+    width: 10rem;
+    float: left;
+    border-radius: 60px;
+  }
+  margin-bottom: 4rem;
+}
