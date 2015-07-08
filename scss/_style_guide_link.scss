@@ -1,0 +1,11 @@
+.style-guide-link {
+  position: fixed;
+  padding: 2rem;
+  top: 2rem;
+  right: 1rem;
+  z-index: 999;
+  background-color: rgba(2,2,2,0.5);
+  a {
+    color: white;
+  }
+}
