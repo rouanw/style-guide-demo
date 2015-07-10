@@ -11,4 +11,6 @@ npm install
 gulp
 ```
 
-You can have SCSS automatically compiled while you edit by running `gulp watch`.
+Open `index.html` for the web page and `style-guide.html` for the style guide.
+
+You can have your SCSS automatically compiled while you edit by running `gulp watch`.
