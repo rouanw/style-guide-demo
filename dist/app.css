@@ -1,0 +1,66 @@
+body {
+  background-color: #dcdcdc; }
+
+header {
+  background-color: #8b1a1a;
+  color: white;
+  font-size: 4rem;
+  min-height: 16rem;
+  padding: 1rem 4rem;
+  margin-bottom: 2rem; }
+  header p {
+    margin-top: 3rem;
+    margin-left: 12rem; }
+  header img {
+    width: 10rem;
+    float: left;
+    border-radius: 4rem; }
+
+button {
+  background-color: #8b4c39;
+  color: white;
+  border: none;
+  height: 4rem; }
+  button:hover {
+    background-color: #8b1a1a; }
+
+.floating-link {
+  position: fixed;
+  padding: 2rem;
+  top: 2rem;
+  right: 1rem;
+  z-index: 999;
+  background-color: rgba(2, 2, 2, 0.5); }
+  .floating-link a {
+    color: white; }
+
+.notification {
+  background-color: #f0e68c;
+  border: 0.1rem solid #bdb76b;
+  font-size: 2rem;
+  font-style: italic;
+  padding: 1rem; }
+
+.product-box {
+  background-color: white;
+  border: 0.2rem solid #a6a39a;
+  padding: 1rem;
+  min-height: 24rem;
+  margin: 2rem 0; }
+  .product-box .item-title {
+    font-size: 2rem;
+    color: #8b4c39; }
+  .product-box img {
+    float: left;
+    height: 12rem;
+    margin-right: 1rem; }
+  .product-box button {
+    margin-top: 2rem;
+    width: 100%; }
+
+.style-guide .component {
+  background-color: white;
+  border: 1px solid gray;
+  width: 100%;
+  padding: 2rem;
+  margin: 2rem 0; }
